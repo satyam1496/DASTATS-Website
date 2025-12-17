@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://dastats.co.in/</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- Core Pages-->
+  <url>
+    <loc>https://dastats.co.in/blogs.html</loc>
+    <priority>0.80</priority>
+  </url>
+
+
+  <!-- SERVICES -->
+ <url>
+   <loc>https://dastats.co.in/services/voc.html</loc>
+   <priority>0.80</priority>
+ </url>
+
+ <url>
+   <loc>https://dastats.co.in/services/clv.html</loc>
+   <priority>0.80</priority>
+ </url>
+
+ <url>
+   <loc>https://dastats.co.in/services/mmm.html</loc>
+   <priority>0.80</priority>
+ </url>
+
+ <url>
+   <loc>https://dastats.co.in/services/mta.html</loc>
+   <priority>0.80</priority>
+ </url>
+
+ <url>
+   <loc>https://dastats.co.in/services/reco.html</loc>
+   <priority>0.80</priority>
+ </url>
+
+ <url>
+   <loc>https://dastats.co.in/services/custom.html</loc>
+   <priority>0.80</priority>
+ </url>
+
+
+ <!-- Cases -->
+ <url>
+   <loc>https://dastats.co.in/cases/b2b.html</loc>
+   <priority>0.70</priority>
+ </url>
+
+ <url>
+   <loc>https://dastats.co.in/cases/d2c.html</loc>
+   <priority>0.70</priority>
+ </url>
+
+ <url>
+   <loc>https://dastats.co.in/cases/ecom.html</loc>
+   <priority>0.70</priority>
+ </url>
+
+ <url>
+   <loc>https://dastats.co.in/cases/pharma.html</loc>
+   <priority>0.70</priority>
+ </url>
+
+ <url>
+   <loc>https://dastats.co.in/cases/retail.html</loc>
+   <priority>0.70</priority>
+ </url>
+
+ <url>
+   <loc>https://dastats.co.in/cases/startup.html</loc>
+   <priority>0.70</priority>
+ </url>
+
+
+
+ <!-- blogs-->
+ <url>
+   <loc>https://dastats.co.in/blogs/dashboard-decisions.html</loc>
+   <priority>0.70</priority>
+ </url>
+
+ <url>
+   <loc>https://dastats.co.in/blogs/retention-analytics-silent-revenue-unlock.html</loc>
+   <priority>0.70</priority>
+ </url>
+
+ <url>
+   <loc>https://dastats.co.in/blogs/voice-of-customer-beyond-star-ratings.html</loc>
+   <priority>0.70</priority>
+ </url>
+
+</urlset>
+
+
+
+

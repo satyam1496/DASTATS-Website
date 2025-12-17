@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Why Most Dashboards Don’t Change Decisions | DASTATS Blog</title>
+
+  <link rel="canonical" href="https://dastats.co.in/blogs/dashboard-decisions.html">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+
+  <!-- Swiper (if used elsewhere) -->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+
+  <!-- Main site CSS -->
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <!-- Shared Header -->
+ <header class="header">
+    <a href="../index.html#home" class="logo">
+      <img src="../images/Logo.jpeg" alt="DASTATS">
+    </a>
+    <nav class="navbar">
+      <a href="../index.html#home">home</a>
+      <a href="../index.html#about">about</a>
+      <a href="../index.html#services">services</a>
+      <a href="../index.html#casestudy">Case Study</a>
+      <a href="../index.html#contact">contact</a>
+      <a href="../index.html#blogs">blogs</a>
+    </nav>
+    <div class="icons">
+      <div id="menu-btn" class="iconBox"><i class="fa-solid fa-bars"></i></div>
+      
+    </div>
+  </header>
+
+  <!-- BLOG HERO -->
+  <article class="blog-page">
+
+    <header class="blog-hero">
+      <div class="blog-hero-inner container">
+
+        <div class="blog-hero-text">
+          <a href="../index.html#blogs" class="blog-back-link">
+            <i class="fa-solid fa-arrow-left"></i> Back to all insights
+          </a>
+
+          <span class="blog-category-chip">Dashboards</span>
+
+          <h1 class="blog-title">
+            Why most dashboards don’t change decisions (and how to fix yours)
+          </h1>
+
+          <div class="blog-meta">
+            <span><i class="fa-regular fa-calendar"></i> Jan 2025</span>
+            <span><i class="fa-regular fa-clock"></i> 6 min read</span>
+            <span><i class="fa-regular fa-user"></i> DASTATS Team</span>
+          </div>
+        </div>
+
+        <div class="blog-hero-media">
+          <div class="blog-cover">
+            <!-- hero image -->
+            <img src="../images/dash6.jpg"
+                 alt="Decision-first dashboard design">
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+    <!-- BLOG CONTENT -->
+    <section class="blog-content">
+      <div class="container blog-content-inner">
+
+        <!-- Intro -->
+        <p class="blog-intro">
+          We keep meeting teams who have beautiful dashboards – but still make
+          decisions in WhatsApp chats and Excel. The problem is rarely “no data”.
+          It’s that the dashboards are not designed for <strong>how decisions
+          are actually made</strong>.
+        </p>
+
+        <!-- Section 1 -->
+        <h2>Pattern we see in almost every broken dashboard</h2>
+        <p>
+          When we get called in to “fix” a dashboard, we usually see the same patterns:
+        </p>
+        <ul>
+          <li>Too many charts, not enough clear questions.</li>
+          <li>No single view for “Is this good or bad this week?”</li>
+          <li>KPIs mixed for different teams in the same page.</li>
+          <li>Looks great in a screenshot, confusing in a review meeting.</li>
+        </ul>
+
+        <!-- IMAGE BLOCK 1 -->
+        <figure class="blog-image-block">
+          <img src="../images/fail.webp"
+               alt="Bad dashboard">
+          
+        </figure>
+
+        <!-- Section 2 -->
+        <h2>Step 1: Design around a real decision, not a data source</h2>
+        <p>
+          Before opening Power BI, we ask a simple question:
+        </p>
+        <p class="blog-callout">
+          “What decision do you take weekly or monthly that this dashboard should support?”
+        </p>
+        <p>
+          For example:
+        </p>
+        <ul>
+          <li>Which campaigns to scale, pause or test next.</li>
+          <li>Which customer segments need a retention push.</li>
+          <li>Which zones or SKUs need focus from sales teams.</li>
+        </ul>
+        <p>
+          Once that is clear, the dashboard layout becomes much easier:
+          top part for “Are we winning or losing?”, middle for “Why?”, and
+          bottom for “What should we try next?”.
+        </p>
+
+        <!-- IMAGE BLOCK 2 -->
+        <figure class="blog-image-block">
+          <img src="../images/why.jpg"
+               alt="Dashboard layout logic">
+          
+        </figure>
+
+        <!-- Section 3 -->
+        <h2>Step 2: Show fewer numbers, but with more context</h2>
+        <p>
+          Dashboards often fail because they show <em>more data, less meaning</em>.
+          For each key metric, try to always show:
+        </p>
+        <ul>
+          <li><strong>Current value</strong> (this week / month)</li>
+          <li><strong>Comparison</strong> (vs target / last period)</li>
+          <li><strong>Direction</strong> (arrow or color for movement)</li>
+        </ul>
+
+        <!-- INLINE IMAGE GRID -->
+        <div class="blog-inline-grid">
+          <figure>
+            <img src="../images/gauge-chart-example.svg" alt="KPI card example">
+            
+          </figure>
+          <figure>
+            <img src="../images/linechart.webp" alt="Trend chart example">
+            
+          </figure>
+        </div>
+
+        <!-- Section 4 -->
+        <h2>Step 3: Match views to roles</h2>
+        <p>
+          A single “master dashboard” for everyone sounds good, but usually
+          ends up serving no one perfectly.
+        </p>
+        <p>
+          For most clients, we end up creating at least:
+        </p>
+        <ol>
+          <li><strong>Leadership view:</strong> few KPIs, trend and exceptions.</li>
+          <li><strong>Manager view:</strong> breakdowns by team / region / segment.</li>
+          <li><strong>Analyst view:</strong> more filters, drill-down and export options.</li>
+        </ol>
+
+        <blockquote class="blog-quote">
+          The goal is not “one big dashboard”. The goal is
+          <strong>“the right view at the right level”</strong>.
+        </blockquote>
+
+        <!-- CTA TO CONTACT / SERVICES -->
+        <div class="blog-cta-box">
+          <h3>Want your dashboards to finally drive decisions?</h3>
+          <p>
+            We work with teams to redesign their existing dashboards around real
+            decision rituals – weekly, monthly and quarterly.
+          </p>
+          <a href="https://calendly.com/satyammuley/consulatation-with-satyam-muley" class="btn">Talk about a dashboard redesign</a>
+        </div>
+
+      </div>
+    </section>
+
+    
+
+  </article>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <script src="../main.js"></script>
+</body>
+</html>
